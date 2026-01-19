@@ -2,7 +2,7 @@ import { useCallback, useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import { attachYouTubeIds, genTags, vibeSong } from './api'
-import SongsGrid from './components/songsGrid'
+import SongsGrid from './components/SongsGrid'
 
 function App() {
 
