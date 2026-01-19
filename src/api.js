@@ -97,7 +97,6 @@ async function getYouTubeVideoId(song, artist) {
     const videoId = data.items?.[0]?.id?.videoId || null;
     youtubeCache.set(query, videoId);
 
-    console.log(videoId)
     return videoId;
 }
 
